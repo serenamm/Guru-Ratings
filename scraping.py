@@ -196,4 +196,3 @@ def search_article(authors, id_tbl, articles, tickers, disclosures):
         disclosures = disclosures.append(s2, ignore_index = True)
 
     return id_tbl, tickers, articles_w_dates, disclosures
-
